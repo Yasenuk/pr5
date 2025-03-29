@@ -9,16 +9,16 @@ div {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 20px;
-	padding: 40px 0;
 }
 
 .header,
 .footer {
 	clear: both;
 	width: 100%;
-	height: 200px;
+	height: 100px;
 	background-color: #eee;
 	margin: 10px 0;
+	padding: 40px 0;
 }
 
 .wrapper:after {
@@ -28,6 +28,8 @@ div {
 }
 
 .section {
+	box-sizing: border-box;
+	padding: 40px 10px;
 	height: 200px;
 	margin-bottom: 10px;
 	float: left;
