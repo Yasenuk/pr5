@@ -22,7 +22,7 @@ div {
 
 .wrapper {
 	float: left;
-	width: 80%;
+	width: 100%;
 	padding: 0;
 }
 
@@ -30,25 +30,20 @@ div {
 	height: 200px;
 	margin-bottom: 10px;
 	float: left;
+	width: calc(100% / 3);
 }
 
-.main {
-	width: 75%;
+.b2 {
 	background-color: #ddd;
-	float: right;
 }
 
-.sidebar {
-	width: 20%;
+.b1, .b3 {
 	background-color: #ccc;
 }
 
-.sb1 {
-	float: left;
-	width: 25%;
-}
-
-.sb2 {
-	float: right;
-	width: 20%;
+.b4 {
+	background-color: #c8d5f0;
+	width: 240px;
+	margin-top: 50px;
+	clear: both;
 }
