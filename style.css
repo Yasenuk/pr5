@@ -1,0 +1,36 @@
+.container {
+	width: 960px;
+	margin: auto;
+}
+
+div {
+	font-family: Oswald, sans-serif;
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 40px 0;
+}
+
+.header, .footer {
+	clear: left;
+	width: 100%;
+	height: 200px;
+	background-color: #eee;
+	margin: 10px 0;
+}
+
+.section {
+	float: left;
+	width: 25%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+.section:nth-child(odd) {
+	background-color: #ddd;
+}
+
+.section:nth-child(even) {
+	background-color: #ccc;
+}
